@@ -1,5 +1,4 @@
 import { Button } from "../ui/button"
-import { ArrowRight } from "lucide-react"
 
 interface CTASectionProps {
   translations: {
@@ -15,18 +14,16 @@ interface CTASectionProps {
 export default function CTASection({ translations }: CTASectionProps) {
   const { cta } = translations
   return (
-    <section id="contact" className="px-6 md:px-8 py-32 md:py-40 max-w-[1400px] mx-auto border-t border-border">
+    <section id="contact" className="py-24 px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-8 text-balance">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">
           {cta.title}
         </h2>
-        <p className="text-xl text-muted-foreground leading-relaxed mb-12">{cta.subtitle}</p>
+        <p className="text-lg text-muted-foreground mb-12">{cta.subtitle}</p>
         <Button
-          size="lg"
-          className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-sm px-12 h-16 text-base font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-primary/30"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground rounded px-8 py-4 text-base font-medium transition-colors duration-200"
         >
           {cta.button}
-          <ArrowRight className="ml-3 h-6 w-6" />
         </Button>
         <p className="mt-8 text-sm text-muted-foreground">{cta.response}</p>
       </div>

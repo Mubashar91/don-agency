@@ -2,24 +2,14 @@ export const translations = {
   en: {
     nav: {
       services: "Services",
-      work: "Work",
-      approach: "Approach",
-      expertise: "Expertise",
       contact: "Contact",
-      getStarted: "Get Started",
-      contactUs: "Contact Us",
-      bookMeeting: "Book Meeting",
     },
     hero: {
-      title: "Operational Leverage for Scaling Companies",
-      subtitle:
-        "We don't build campaigns. We build systems—enterprise-grade operational infrastructure that creates force multipliers for companies ready to scale.",
-      cta: "Start Building",
-      stats: [
-        { value: "10x", label: "Avg. Efficiency Gain" },
-        { value: "45%", label: "Cost Reduction" },
-        { value: "6mo", label: "Avg. Payback Period" },
-      ],
+      title: "Operational leverage for scaling companies.",
+      subtitle: "We build and operate dedicated remote teams that create force multipliers for your business.",
+      cta: "How it works",
+      secondaryCta: "Who it's for",
+      stats: []
     },
     purpose: {
       title: "What We Do",
@@ -30,24 +20,19 @@ export const translations = {
     },
     services: {
       title: "Core Services",
-      subtitle: "Operational infrastructure built for scale",
+      subtitle: "Enterprise-grade operational systems that scale with your business.",
       items: [
         {
-          title: "Data Infrastructure",
-          description:
-            "Enterprise-grade data pipelines, warehousing, and analytics infrastructure that scales with your business.",
-        },
-        {
-          title: "Process Automation",
-          description: "Intelligent automation systems that eliminate manual work and create operational leverage.",
+          title: "Remote Team Operations",
+          description: "Dedicated teams that become extensions of your operations, not outsourced vendors.",
         },
         {
           title: "Systems Integration",
-          description: "Seamless integration of your operational stack—CRM, ERP, analytics, and custom tools.",
+          description: "Unified operational infrastructure connecting your entire tech stack.",
         },
         {
-          title: "Business Intelligence",
-          description: "Real-time dashboards and reporting systems that provide actionable insights at every level.",
+          title: "Process Automation",
+          description: "Intelligent systems that eliminate manual work and create leverage.",
         },
       ],
     },
@@ -257,33 +242,22 @@ export const translations = {
     },
     cta: {
       title: "Ready to build operational leverage?",
-      subtitle:
-        "Schedule a 30-minute call to discuss your operational challenges and how we can help build the systems you need to scale.",
-      button: "Schedule Discovery Call",
-      response: "Typical response time: 2-4 hours during business hours",
+      subtitle: "Schedule a 30-minute discovery call to discuss your operational challenges.",
+      button: "Schedule Call",
+      response: "Response within 2-4 hours during business hours",
     },
   },
   de: {
     nav: {
       services: "Dienstleistungen",
-      work: "Arbeit",
-      approach: "Ansatz",
-      expertise: "Expertise",
       contact: "Kontakt",
-      getStarted: "Loslegen",
-      contactUs: "Kontaktieren Sie uns",
-      bookMeeting: "Termin buchen",
     },
     hero: {
-      title: "Operative Hebelwirkung für Wachstumsunternehmen",
-      subtitle:
-        "Wir entwickeln keine Kampagnen. Wir bauen Systeme—operative Infrastruktur auf Unternehmensniveau, die Kraftmultiplikatoren für skalierungsbereite Unternehmen schafft.",
-      cta: "Jetzt Beginnen",
-      stats: [
-        { value: "10x", label: "Durchschn. Effizienzgewinn" },
-        { value: "45%", label: "Kostenreduzierung" },
-        { value: "6mo", label: "Durchschn. Amortisationszeit" },
-      ],
+      title: "Operative Hebelwirkung für wachsende Unternehmen.",
+      subtitle: "Wir bauen und betreiben dedizierte Remote-Teams, die Kraftmultiplikatoren für Ihr Geschäft schaffen.",
+      cta: "Wie es funktioniert",
+      secondaryCta: "Für wen es ist",
+      stats: []
     },
     purpose: {
       title: "Was Wir Tun",
@@ -294,25 +268,19 @@ export const translations = {
     },
     services: {
       title: "Kerndienstleistungen",
-      subtitle: "Operative Infrastruktur für Skalierung gebaut",
+      subtitle: "Operationale Systeme auf Unternehmensniveau, die mit Ihrem Geschäft skalieren.",
       items: [
         {
-          title: "Dateninfrastruktur",
-          description:
-            "Datenpipelines, Datenspeicherung und Analyseinfrastruktur auf Unternehmensniveau, die mit Ihrem Geschäft skaliert.",
-        },
-        {
-          title: "Prozessautomatisierung",
-          description:
-            "Intelligente Automatisierungssysteme, die manuelle Arbeit eliminieren und operative Hebelwirkung schaffen.",
+          title: "Remote-Team-Operationen",
+          description: "Dedizierte Teams, die Erweiterungen Ihrer Operationen werden, keine ausgelagerten Dienstleister.",
         },
         {
           title: "Systemintegration",
-          description: "Nahtlose Integration Ihres operativen Stacks—CRM, ERP, Analytik und kundenspezifische Tools.",
+          description: "Vereinigte operative Infrastruktur, die Ihren gesamten Tech-Stack verbindet.",
         },
         {
-          title: "Business Intelligence",
-          description: "Echtzeit-Dashboards und Berichtssysteme, die auf jeder Ebene umsetzbare Erkenntnisse liefern.",
+          title: "Prozessautomatisierung",
+          description: "Intelligente Systeme, die manuelle Arbeit eliminieren und Hebelwirkung schaffen.",
         },
       ],
     },
@@ -523,10 +491,9 @@ export const translations = {
     },
     cta: {
       title: "Bereit, operativen Hebel aufzubauen?",
-      subtitle:
-        "Planen Sie ein 30-minütiges Gespräch, um Ihre operativen Herausforderungen zu besprechen und wie wir die Systeme aufbauen können, die Sie zum Skalieren benötigen.",
-      button: "Entdeckungsgespräch planen",
-      response: "Typische Antwortzeit: 2-4 Stunden während der Geschäftszeiten",
+      subtitle: "Planen Sie ein 30-minütiges Gespräch für Ihre operativen Herausforderungen.",
+      button: "Termin Vereinbaren",
+      response: "Antwort innerhalb von 2-4 Stunden während Geschäftszeiten",
     },
   },
 }

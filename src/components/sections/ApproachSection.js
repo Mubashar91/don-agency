@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function ApproachSection({ translations }) {
+    const { approach } = translations;
+    return (_jsx("section", { id: "approach", className: "py-20 px-6 border-t border-border", children: _jsxs("div", { className: "max-w-7xl mx-auto", children: [_jsxs("div", { className: "mb-16", children: [_jsx("h2", { className: "text-4xl font-bold mb-4", children: approach.title }), _jsx("p", { className: "text-xl text-muted-foreground", children: approach.subtitle })] }), _jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6", children: approach.phases.map((phase, i) => (_jsxs("div", { className: "group", children: [_jsxs("div", { className: "mb-4 text-primary font-mono text-sm", children: ["0", i + 1] }), _jsx("h3", { className: "text-xl font-semibold mb-3 group-hover:text-primary transition-colors duration-200", children: phase.title }), _jsx("p", { className: "text-sm text-muted-foreground leading-relaxed", children: phase.description })] }, i))) })] }) }));
+}
+//# sourceMappingURL=ApproachSection.js.map
